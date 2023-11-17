@@ -392,4 +392,51 @@ button {
 .header-left__button {
   padding: 16px 56px;
   box-shadow: 1px 1px 10px #FF6C6C;
+}
+
+.main {
+  padding: 100px 0;
+  background-color: #FFF;
+}
+.main__title {
+  font-size: 24px;
+  font-weight: 800;
+}
+.main-catalog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, max-content);
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 30px;
+}
+.main-catalog-card {
+  padding: 29px;
+  background-color: #F8F8F8;
+  box-shadow: 0px 4px 4px 0px rgba(104, 104, 104, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-catalog-card__image {
+  margin-bottom: 28px;
+}
+.main-catalog-card-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 27px;
+}
+.main-catalog-card-info__text {
+  font-size: 16px;
+  font-weight: 800;
+}
+.main-catalog-card-info__price {
+  font-size: 36px;
+  font-weight: 800;
+}
+.main-catalog-card__button {
+  padding: 16px;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
