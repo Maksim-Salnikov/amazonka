@@ -439,4 +439,43 @@ button {
 .main-catalog-card__button {
   padding: 16px;
   width: 100%;
+}
+
+.recalls {
+  padding: 43px 0 99px 0;
+  background-color: #FFF;
+}
+.recalls__title {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+.recalls-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, max-content);
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+}
+.recalls-content-card {
+  border-radius: 10px;
+  border: 1px solid #EDEDED;
+  box-shadow: 0px 4px 4px 0px rgba(131, 131, 131, 0.25);
+  background-color: #FFF;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.recalls-content-card__image {
+  margin-bottom: 17px;
+}
+.recalls-content-card__name {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.recalls-content-card__text {
+  font-size: 14px;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
